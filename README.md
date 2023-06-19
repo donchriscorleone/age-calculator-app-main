@@ -39,8 +39,8 @@ Mobile view at 375px:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/donchriscorleone/age-calculator-app-main)
+- Live Site URL: [](https://donchriscorleone.github.io/age-calculator-app-main/)
 
 ## My process
 
