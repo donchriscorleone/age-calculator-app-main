@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <main>
+    <div class="card border-bottom-right">
+      <div class="card-wrapper">
+        <div class="card-form-container">
+          <form method="post" id="form">
+            <div class="form-field">
+              <label for="day">Day</label>
+              <input type="number" name="day" id="day" placeholder="DD">
+              <span class="form-field-error-message color-accent-400"></span>
+            </div>
+            <div class="form-field">
+              <label for="month">Month</label>
+              <input type="number" name="month" id="month" placeholder="MM">
+              <span class="form-field-error-message color-accent-400"></span>
+            </div>
+            <div class="form-field">
+              <label for="year">Year</label>
+              <input type="number" name="year" id="year" placeholder="YY">
+              <span class="form-field-error-message color-accent-400"></span>
+            </div>
+            <button class="btn-submit" aria-label="Submit button">
+              <div class="icon-container">
+                <span class="icon-arrow" aria-label="Arrow Icon"></span>
+              </div>
+            </button>
+          </form>
+        </div>
+        <div class="card-content">
+          <div class="result-container">
+            <section class="result result-years">
+              <span class="digit">- -</span>
+              <span class="description">years</span>
+            </section>
+          
+            <section class="result result-months">
+              <span class="digit">- -</span>
+              <span class="description">months</span>
+            </section>
+          
+            <section class="result result-days">
+              <span class="digit">- -</span>
+              <span class="description">days</span>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      <span class="fm">&copy; <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a></span>
+      <div class="links">
+        <span class="me">Coded by Christopher II</span>
+        <a href="https://twitter.com/topheriidev" target="_blank">Twitter</a>
+        <a href="instagram.com/devchristopherii/" target="_blank">Instagram</a>
+        <a href="https://github.com/donchriscorleone" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
